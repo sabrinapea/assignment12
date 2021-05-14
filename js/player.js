@@ -66,13 +66,6 @@ jbox.addAlbum(album4);
 jbox.addAlbum(album5);
 jbox.buildDropDown();
 
-// album1.play();
-// album2.play();
-// album2.play();
-// album2.play();
-// album2.play();
-// album2.play();
-// album3.play();
 document.getElementById("favoriteAlbum").addEventListener('click', (e) => {
     alert(`Your favorite album is: ${jbox.favoriteAlbum()}`);
 });
